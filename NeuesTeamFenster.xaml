@@ -1,0 +1,16 @@
+﻿<Window x:Class="Turnierplaner.NeuesTeamFenster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Neues Team hinzufügen" Height="250" Width="400" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="20">
+        <TextBlock Text="Team hinzufügen" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Teamname:" Margin="0,0,0,5"/>
+        <TextBox x:Name="TeamnameBox" Margin="0,0,0,10"/>
+
+        <TextBlock Text="Teamkapitän:" Margin="0,0,0,5"/>
+        <TextBox x:Name="KapitänBox" Margin="0,0,0,10"/>
+
+        <Button Content="Hinzufügen" Width="100" Click="Hinzufuegen_Click"/>
+    </StackPanel>
+</Window>
